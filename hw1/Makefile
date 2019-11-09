@@ -5,3 +5,6 @@ cpu-bound: cpu-bound.c
 
 io-bound: io-bound.c
 	gcc io-bound.c -o io-bound
+
+clean:
+	rm -f cpu-bound io-bound
